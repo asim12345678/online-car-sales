@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Search Page - Online Car Sales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <a href="Online Car Sales.html" class="logo">
+                <img src="logo.png" alt="" class="logo-img">
+                car<span>point</span>
+            </a>
+            <ul class="navbar">
+                <li><a href="Online Car Sales.html">Home</a></li>
+                <li><a href="seller-registration.html">Seller Registration</a></li>
+                <li><a href="Seller-page.html">Seller Page</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+            </ul>
+            <i class='bx bx-search' id="search-icon"></i>
+            <div class="search-box container">
+                <input type="search" name="" id="" placeholder="Search here...">
+            </div>
+        </div>
+    </header>
+
+   
+    <section class="search-page">
+        <div class="container">
+            <h2>Search for Cars</h2>
+            <form id="search-form">
+                <div class="form-group">
+                    <label for="model">Model</label>
+                    <input type="text" id="model" name="model" placeholder="Enter car model">
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" placeholder="Enter car location">
+                </div>
+                <button type="submit" class="btn">Search</button>
+            </form>
+            <div id="search-results">
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

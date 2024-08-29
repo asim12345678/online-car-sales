@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Seller Page - Online Car Sales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <a href="Online Car Sales.html" class="logo">
+                <img src="logo.png" alt="" class="logo-img">
+                car<span>point</span>
+            </a>
+            <ul class="navbar">
+                <li><a href="Online Car Sales.html">Home</a></li>
+                <li><a href="seller-registration.html">Seller Registration</a></li>
+                <li><a href="Seller-page.html">Seller Page</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+            </ul>
+            <i class='bx bx-search' id="search-icon"></i>
+            <div class="search-box container">
+                <input type="search" name="" id="" placeholder="Search here...">
+            </div>
+        </div>
+    </header>
+
+    
+    <section class="login-page" id="login-page">
+        <div class="container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <div id="login-message" class="form-message"></div>
+        </div>
+    </section>
+
+    
+    <section class="add-car" id="add-car">
+        <div class="container">
+            <h2>Add Car</h2>
+            <form id="add-car-form">
+                <div class="form-group">
+                    <label for="make">Make</label>
+                    <input type="text" id="make" name="make" placeholder="Enter the car make">
+                </div>
+                <div class="form-group">
+                    <label for="model">Model</label>
+                    <input type="text" id="model" name="model" placeholder="Enter the car model">
+                </div>
+                <div class="form-group">
+                    <label for="year">Year</label>
+                    <input type="number" id="year" name="year" placeholder="Enter the year of manufacture">
+                </div>
+                <div class="form-group">
+                    <label for="mileage">Mileage</label>
+                    <input type="number" id="mileage" name="mileage" placeholder="Enter the mileage">
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" placeholder="Enter the car location">
+                </div>
+                <div class="form-group">
+                    <label for="price">Price</label>
+                    <input type="number" id="price" name="price" placeholder="Enter the price">
+                </div>
+                <button type="submit" class="btn">Add Car</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
